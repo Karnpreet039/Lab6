@@ -26,5 +26,5 @@ Otherwise if num is greter thans 1,
     then the result will be ""
 
 loop three times
-    print the output (fret) to the user
+    print the output (fruit) to the user
 """
