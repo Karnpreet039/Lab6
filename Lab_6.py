@@ -28,3 +28,52 @@ Otherwise if num is greter thans 1,
 loop three times
     print the output (fret) to the user
 """
+def main():
+    results = []
+    for i in range (0,3):
+        results.append(spin())
+
+print("results", results) 
+winner = jackpot(results)
+
+if(winner):
+    print("Winner! you win")
+else:
+    print("sorry try again")
+
+option = input("play agian?")
+if option.lower() == "y" or option.lower() == "yes"
+ main()
+
+def spin():
+    rand_num = random. randint(1, 20)
+    output = ""
+    if (rand_num > 15):
+        output cherries
+    elif (rand_num >10):
+        output = "Orange"
+    elif (rand_num >5 ) :
+        output = "plum"
+    elif (rand_num > 2) :
+        output= "Melon"
+    else:
+        output = "Bar"
+
+def jackpot(results):
+    return results[0] == resluts[1] == results[2]
+
+def count(resluts):
+    mone dict = {
+        "Cherries" : 1, 
+        "Orange" : .7,
+        "Plum" : .6,
+        "Bell" : .4, 
+        "Melon" :  .2, 
+        "Bar" : .1
+    }
+
+    for i in resuls: 
+        total += money_dict[i]
+    print("total:", total)
+    return total_earned += toral 
+main()
