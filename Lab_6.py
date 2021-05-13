@@ -11,20 +11,5 @@ we iterate over using a loop three times and print the reults to the user. As an
 
 """
 """
-import random 
-num = generate random number
 
-if num is greter thans 15, 
-    then the result will be ""
-Otherwise if num is greter thans 10, 
-    then the result will be ""
-Otherwise if num is greter thans 5, 
-    then the result will be ""
-Otherwise if num is greter thans 2, 
-    then the result will be ""
-Otherwise if num is greter thans 1, 
-    then the result will be ""
-
-loop three times
-    print the output (fret) to the user
 """
